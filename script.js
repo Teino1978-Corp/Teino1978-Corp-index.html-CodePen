@@ -4,7 +4,7 @@
   # What? #
   How to use a custom template with particles.js to display
   my 5 latest CodePens (without particles.css)
-  https://github.com/TimPietrusky/pentizr
+  https://gist.github.com/Teino1978-Corp/forked
   # 2015 by Teino Boswell
   # https://www.facebook.com/Alva.Teino
 **/
