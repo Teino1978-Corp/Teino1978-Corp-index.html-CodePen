@@ -1,0 +1,67 @@
+@import "compass";
+@import url(http://fonts.googleapis.com/css?family=Rye);
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  font: 1em 'Rye', cursive;
+}
+
+.entry {
+  float: left;
+  width: 20%;
+  padding: 0 2em;
+  
+  h2 {
+    min-height:2.35em;
+  }
+  
+  /* Hide the default CodePen warning */
+  .container {
+    height:8em;
+    overflow:hidden;
+    
+    margin-bottom:.75em;
+    
+    iframe {
+      border:0;
+      height:14em; 
+    }
+  }
+  
+  a {
+    color:#c00;
+    text-decoration:none;
+    
+    &:hover {
+      color:#000;
+    }
+  }
+  
+  .meta {
+    font-size:.8em;
+    margin:0;
+    color:rgba(0, 0, 0, .8);
+  }
+}
+
+.about {
+  position:fixed;
+  top:1em;
+  left:1em;
+  background:rgba(0, 0, 0, .9);
+  padding:1em;
+  color:#c00;
+  
+  a {
+    color:#fff;
+    border-bottom:.15em solid rgba(255, 255, 255, .7);
+    padding-bottom:.5em;
+    
+    &:hover {
+      color:#c00;
+    }
+  }
+}
