@@ -1,16 +1,16 @@
 /**
-  pentizr.js custom template demo
+  particles.js custom template demo
   
   # What? #
-  How to use a custom template with pentizr.js to display
-  my 5 latest CodePens (without pentizr.css)
+  How to use a custom template with particles.js to display
+  my 5 latest CodePens (without particles.css)
   https://github.com/TimPietrusky/pentizr
-  # 2012 by Tim Pietrusky
-  # timpietrusky.com
+  # 2015 by Teino Boswell
+  # https://www.facebook.com/Alva.Teino
 **/
 
-$('.my-pens').pentizr({
-  username: 'TimPietrusky', 
+$('.my-pens').particles({
+  username: 'Teino', 
   type : 'owned', 
   limit : 5,
   callback : function() {
